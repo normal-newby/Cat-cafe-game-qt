@@ -1,0 +1,47 @@
+{
+    "classes": [
+        {
+            "className": "RestockingPanel",
+            "lineNumber": 17,
+            "object": true,
+            "qualifiedClassName": "RestockingPanel",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "delta",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 32,
+                    "name": "changeQuantity",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 33,
+                    "name": "restock",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "lineNumber": 39,
+                    "name": "refresh",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "RestockingPanel.h",
+    "outputRevision": 69
+}

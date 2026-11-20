@@ -1,0 +1,36 @@
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (0.8s)
+-- Generating done (0.4s)
+-- Build files have been written to: D:/Projects/Cat-cafe-game-qt/build
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Internal ctest changing into directory: D:/Projects/Cat-cafe-game-qt/build
+Test project D:/Projects/Cat-cafe-game-qt/build
+      Start  1: tst_assets
+ 1/12 Test  #1: tst_assets .......................   Passed    0.13 sec
+      Start  2: tst_items
+ 2/12 Test  #2: tst_items ........................   Passed    0.11 sec
+      Start  3: tst_widgets
+ 3/12 Test  #3: tst_widgets ......................   Passed    0.18 sec
+      Start  4: tst_screens
+ 4/12 Test  #4: tst_screens ......................   Passed    0.31 sec
+      Start  5: tst_mainwindow
+ 5/12 Test  #5: tst_mainwindow ...................   Passed    0.53 sec
+      Start  6: tst_player
+ 6/12 Test  #6: tst_player .......................   Passed    0.28 sec
+      Start  7: tst_interactables
+ 7/12 Test  #7: tst_interactables ................   Passed    0.21 sec
+      Start  8: tst_customers
+ 8/12 Test  #8: tst_customers ....................   Passed    0.28 sec
+      Start  9: tst_cafescene
+ 9/12 Test  #9: tst_cafescene ....................   Passed    3.03 sec
+      Start 10: tst_gamescreen
+10/12 Test #10: tst_gamescreen ...................   Passed    0.94 sec
+      Start 11: tst_panels
+11/12 Test #11: tst_panels .......................   Passed    0.43 sec
+      Start 12: tst_sound
+12/12 Test #12: tst_sound ........................   Passed    0.15 sec
+
+100% tests passed, 0 tests failed out of 12
+
+Total Test time (real) =   6.60 sec

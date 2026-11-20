@@ -1,0 +1,40 @@
+{
+    "classes": [
+        {
+            "className": "UpgradesPanel",
+            "lineNumber": 20,
+            "object": true,
+            "qualifiedClassName": "UpgradesPanel",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "upgrade",
+                            "type": "Upgrade"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 32,
+                    "name": "buy",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "lineNumber": 38,
+                    "name": "refreshButtons",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "UpgradesPanel.h",
+    "outputRevision": 69
+}

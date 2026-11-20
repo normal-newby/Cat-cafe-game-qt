@@ -1,0 +1,381 @@
+Start testing: Nov 10 17:30 Eastern Standard Time
+----------------------------------------------------------
+1/12 Testing: tst_assets
+1/12 Test: tst_assets
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_assets.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_assets" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestAssets *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestAssets::initTestCase()
+PASS   : TestAssets::imagesAreEmbedded()
+PASS   : TestAssets::pixmapLoadsNaturalSize()
+PASS   : TestAssets::pixmapScales()
+PASS   : TestAssets::missingPixmapIsNull()
+PASS   : TestAssets::fontIsTheGameFont()
+PASS   : TestAssets::shortSoundsAreEmbedded()
+PASS   : TestAssets::musicPathIsBesideExe()
+PASS   : TestAssets::cleanupTestCase()
+Totals: 9 passed, 0 failed, 0 skipped, 0 blacklisted, 22ms
+********* Finished testing of TestAssets *********
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"tst_assets" end time: Nov 10 17:30 Eastern Standard Time
+"tst_assets" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/12 Testing: tst_items
+2/12 Test: tst_items
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_items.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_items" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestItems *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestItems::initTestCase()
+PASS   : TestItems::catalogKnowsTheItems()
+PASS   : TestItems::makeBuildsTheRightClass()
+PASS   : TestItems::cupImageFollowsContents()
+PASS   : TestItems::cupsMatchInAnyOrder()
+PASS   : TestItems::orderCost()
+PASS   : TestItems::randomOrdersAreWellFormed()
+PASS   : TestItems::cleanupTestCase()
+Totals: 8 passed, 0 failed, 0 skipped, 0 blacklisted, 2ms
+********* Finished testing of TestItems *********
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"tst_items" end time: Nov 10 17:30 Eastern Standard Time
+"tst_items" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: tst_widgets
+3/12 Test: tst_widgets
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_widgets.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_widgets" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestWidgets *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestWidgets::initTestCase()
+PASS   : TestWidgets::sheetsCutIntoFrames()
+PASS   : TestWidgets::nextStartsAtFrameOneAndWraps()
+PASS   : TestWidgets::copiesAnimateIndependently()
+PASS   : TestWidgets::buttonBasics()
+PASS   : TestWidgets::hoverSwapsImageAndEmits()
+PASS   : TestWidgets::hoverCanGrow()
+PASS   : TestWidgets::disabledButtonIsQuiet()
+PASS   : TestWidgets::cleanupTestCase()
+Totals: 9 passed, 0 failed, 0 skipped, 0 blacklisted, 65ms
+********* Finished testing of TestWidgets *********
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"tst_widgets" end time: Nov 10 17:30 Eastern Standard Time
+"tst_widgets" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: tst_screens
+4/12 Test: tst_screens
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_screens.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_screens" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestScreens *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestScreens::initTestCase()
+PASS   : TestScreens::menuButtonsEmit()
+PASS   : TestScreens::instructionsLoop()
+PASS   : TestScreens::instructionsStartStop()
+PASS   : TestScreens::instructionsBackEmits()
+PASS   : TestScreens::screenshots()
+PASS   : TestScreens::cleanupTestCase()
+Totals: 7 passed, 0 failed, 0 skipped, 0 blacklisted, 195ms
+********* Finished testing of TestScreens *********
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"tst_screens" end time: Nov 10 17:30 Eastern Standard Time
+"tst_screens" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: tst_mainwindow
+5/12 Test: tst_mainwindow
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_mainwindow.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_mainwindow" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestMainWindow *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestMainWindow::initTestCase()
+QINFO  : TestMainWindow::startsOnMenu() qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 7.1.5 LGPL version 2.1 or later
+PASS   : TestMainWindow::startsOnMenu()
+PASS   : TestMainWindow::instructionsAndBack()
+PASS   : TestMainWindow::playBackPlay()
+PASS   : TestMainWindow::musicFollowsTheScreens()
+PASS   : TestMainWindow::everyImageButtonClicksOnHover()
+PASS   : TestMainWindow::servingMeows()
+PASS   : TestMainWindow::cleanupTestCase()
+Totals: 8 passed, 0 failed, 0 skipped, 0 blacklisted, 300ms
+********* Finished testing of TestMainWindow *********
+[wav @ 00000243cdb0f040] Cannot check for SPDIF
+[wav @ 00000243cdb0f040] Could not find codec parameters for stream 0 (Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, 2 channels, 1536 kb/s): unspecified sample format
+Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
+Input #0, wav, from 'D:/Projects/Cat-cafe-game-qt/build/assets/sounds/backgroundMusic.wav':
+  Duration: 00:01:08.09, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, 2 channels, 1536 kb/s
+Input #0, wav, from 'D:/Projects/Cat-cafe-game-qt/build/assets/sounds/backgroundMusic.wav':
+  Metadata:
+    encoder         : Lavf59.27.100 (libsndfile-1.0.31)
+    Software        : Lavf59.27.100
+  Duration: 00:01:08.09, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, 2 channels, s16, 1536 kb/s
+<end of output>
+Test time =   0.53 sec
+----------------------------------------------------------
+Test Passed.
+"tst_mainwindow" end time: Nov 10 17:30 Eastern Standard Time
+"tst_mainwindow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: tst_player
+6/12 Test: tst_player
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_player.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_player" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestPlayer *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestPlayer::initTestCase()
+PASS   : TestPlayer::startsWhereTheJavaDoes()
+PASS   : TestPlayer::movesRight()
+PASS   : TestPlayer::diagonalIsNormalised()
+PASS   : TestPlayer::opposingKeysCancel()
+PASS   : TestPlayer::releasingAKeyStopsThatDirection()
+PASS   : TestPlayer::stopsAtSolids()
+PASS   : TestPlayer::staysInBounds()
+PASS   : TestPlayer::stopReleasesEverything()
+PASS   : TestPlayer::moveTo()
+PASS   : TestPlayer::carriesOneItem()
+PASS   : TestPlayer::moneyTipsSpeedAnnounce()
+PASS   : TestPlayer::cleanupTestCase()
+Totals: 13 passed, 0 failed, 0 skipped, 0 blacklisted, 168ms
+********* Finished testing of TestPlayer *********
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"tst_player" end time: Nov 10 17:30 Eastern Standard Time
+"tst_player" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/12 Testing: tst_interactables
+7/12 Test: tst_interactables
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_interactables.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_interactables" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestInteractables *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestInteractables::initTestCase()
+PASS   : TestInteractables::geometry()
+PASS   : TestInteractables::counterHandsOutStock()
+PASS   : TestInteractables::counterMakesIngredients()
+PASS   : TestInteractables::emptyCounterSaysSo()
+PASS   : TestInteractables::prepTableHandOver()
+PASS   : TestInteractables::prepTableRefusals()
+PASS   : TestInteractables::trashbin()
+PASS   : TestInteractables::cleanupTestCase()
+Totals: 9 passed, 0 failed, 0 skipped, 0 blacklisted, 98ms
+********* Finished testing of TestInteractables *********
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"tst_interactables" end time: Nov 10 17:30 Eastern Standard Time
+"tst_interactables" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/12 Testing: tst_customers
+8/12 Test: tst_customers
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_customers.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_customers" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestCustomers *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestCustomers::initTestCase()
+PASS   : TestCustomers::chairGeometry()
+PASS   : TestCustomers::walksInAndSits()
+PASS   : TestCustomers::walksOutAndGoes()
+PASS   : TestCustomers::payout()
+PASS   : TestCustomers::rightCupPays()
+PASS   : TestCustomers::wrongCupCosts()
+PASS   : TestCustomers::tipsAreAdded()
+PASS   : TestCustomers::chairRefuses()
+PASS   : TestCustomers::freedChairIsReusedWhileTheOldCustomerLeaves()
+PASS   : TestCustomers::numberBubble()
+PASS   : TestCustomers::spawnOdds()
+PASS   : TestCustomers::cleanupTestCase()
+Totals: 13 passed, 0 failed, 0 skipped, 0 blacklisted, 62ms
+********* Finished testing of TestCustomers *********
+<end of output>
+Test time =   0.28 sec
+----------------------------------------------------------
+Test Passed.
+"tst_customers" end time: Nov 10 17:30 Eastern Standard Time
+"tst_customers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: tst_cafescene
+9/12 Test: tst_cafescene
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_cafescene.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_cafescene" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestCafeScene *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestCafeScene::initTestCase()
+PASS   : TestCafeScene::worldIsBuilt()
+PASS   : TestCafeScene::startingSpotIsInReachOfThePrepTable()
+PASS   : TestCafeScene::nothingInReach()
+PASS   : TestCafeScene::popUpFollowsTheTarget()
+PASS   : TestCafeScene::interactWithNothingIsHarmless()
+PASS   : TestCafeScene::emptyChairDoesNotBlockItsNeighbour()
+PASS   : TestCafeScene::takingFromACounter()
+PASS   : TestCafeScene::emptyCounterIsReported()
+PASS   : TestCafeScene::restockAnnounces()
+PASS   : TestCafeScene::seatingAnnouncesAndNumbers()
+PASS   : TestCafeScene::servingAnnouncesRenumbersAndCleansUp()
+PASS   : TestCafeScene::wrongOrderAnnouncesALoss()
+PASS   : TestCafeScene::spawnTickSeatsSomeone()
+PASS   : TestCafeScene::noSpawnWhenFull()
+PASS   : TestCafeScene::startStop()
+PASS   : TestCafeScene::clocksDriveTheGame()
+PASS   : TestCafeScene::cleanupTestCase()
+Totals: 18 passed, 0 failed, 0 skipped, 0 blacklisted, 2716ms
+********* Finished testing of TestCafeScene *********
+<end of output>
+Test time =   3.03 sec
+----------------------------------------------------------
+Test Passed.
+"tst_cafescene" end time: Nov 10 17:30 Eastern Standard Time
+"tst_cafescene" time elapsed: 00:00:03
+----------------------------------------------------------
+
+10/12 Testing: tst_gamescreen
+10/12 Test: tst_gamescreen
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_gamescreen.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_gamescreen" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestGameScreen *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestGameScreen::initTestCase()
+PASS   : TestGameScreen::viewIsInert()
+PASS   : TestGameScreen::keysDriveThePlayer()
+PASS   : TestGameScreen::eInteractsOncePerPress()
+PASS   : TestGameScreen::losingFocusStopsThePlayer()
+PASS   : TestGameScreen::backButtonEmits()
+PASS   : TestGameScreen::stopClearsHeldKeys()
+PASS   : TestGameScreen::heldItemPanelShowsTheName()
+PASS   : TestGameScreen::panelsToggle()
+PASS   : TestGameScreen::openingAPanelStopsThePlayer()
+PASS   : TestGameScreen::keysWorkWithAPanelOpen()
+PASS   : TestGameScreen::upgradesPanelLocksTheControls()
+PASS   : TestGameScreen::moneyLabelFollows()
+PASS   : TestGameScreen::servingShowsTheDelta()
+PASS   : TestGameScreen::audioIcons()
+PASS   : TestGameScreen::toggleButtonsOnlyAsk()
+PASS   : TestGameScreen::screenshots()
+PASS   : TestGameScreen::cleanupTestCase()
+Totals: 18 passed, 0 failed, 0 skipped, 0 blacklisted, 819ms
+********* Finished testing of TestGameScreen *********
+<end of output>
+Test time =   0.94 sec
+----------------------------------------------------------
+Test Passed.
+"tst_gamescreen" end time: Nov 10 17:30 Eastern Standard Time
+"tst_gamescreen" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: tst_panels
+11/12 Test: tst_panels
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_panels.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_panels" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestPanels *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestPanels::initTestCase()
+PASS   : TestPanels::comboListsCountersSorted()
+PASS   : TestPanels::quantityButtons()
+PASS   : TestPanels::restockBuys()
+PASS   : TestPanels::tooExpensiveIsGreyAndRefused()
+PASS   : TestPanels::selectionChangesCost()
+PASS   : TestPanels::remainingIsLive()
+PASS   : TestPanels::cardSize()
+PASS   : TestPanels::oneCardPerSeatedCustomer()
+PASS   : TestPanels::tipsRaiseTheShownPayout()
+PASS   : TestPanels::cardsDoNotOutliveTheirCustomer()
+PASS   : TestPanels::upgradesStartingState()
+PASS   : TestPanels::energy()
+PASS   : TestPanels::advertisementAppliesTheNewLevel()
+PASS   : TestPanels::cuteness()
+PASS   : TestPanels::meowmaxRaisesTheOthers()
+PASS   : TestPanels::tooPoor()
+PASS   : TestPanels::cleanupTestCase()
+Totals: 18 passed, 0 failed, 0 skipped, 0 blacklisted, 310ms
+********* Finished testing of TestPanels *********
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Passed.
+"tst_panels" end time: Nov 10 17:30 Eastern Standard Time
+"tst_panels" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: tst_sound
+12/12 Test: tst_sound
+Command: "D:/Projects/Cat-cafe-game-qt/build/tst_sound.exe"
+Directory: D:/Projects/Cat-cafe-game-qt/build
+"tst_sound" start time: Nov 10 17:30 Eastern Standard Time
+Output:
+----------------------------------------------------------
+********* Start testing of TestSound *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by GCC 13.1.0), windows 11
+PASS   : TestSound::initTestCase()
+QINFO  : TestSound::flagsAndToggles() qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 7.1.5 LGPL version 2.1 or later
+PASS   : TestSound::flagsAndToggles()
+PASS   : TestSound::startMusicRespectsFlags()
+PASS   : TestSound::missingMusicFileIsSurvivable()
+PASS   : TestSound::effectsPlayOnlyWhenSoundIsOn()
+PASS   : TestSound::cleanupTestCase()
+Totals: 6 passed, 0 failed, 0 skipped, 0 blacklisted, 31ms
+********* Finished testing of TestSound *********
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"tst_sound" end time: Nov 10 17:30 Eastern Standard Time
+"tst_sound" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 10 17:30 Eastern Standard Time

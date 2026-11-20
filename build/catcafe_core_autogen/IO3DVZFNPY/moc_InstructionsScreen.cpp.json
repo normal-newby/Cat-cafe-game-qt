@@ -1,0 +1,36 @@
+{
+    "classes": [
+        {
+            "className": "InstructionsScreen",
+            "lineNumber": 19,
+            "object": true,
+            "qualifiedClassName": "InstructionsScreen",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 38,
+                    "name": "backRequested",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 35,
+                    "name": "advance",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "InstructionsScreen.h",
+    "outputRevision": 69
+}

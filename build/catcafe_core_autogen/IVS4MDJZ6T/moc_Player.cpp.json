@@ -1,0 +1,57 @@
+{
+    "classes": [
+        {
+            "className": "Player",
+            "lineNumber": 23,
+            "object": true,
+            "qualifiedClassName": "Player",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "money",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 53,
+                    "name": "moneyChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 54,
+                    "name": "heldItemChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "tips",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 55,
+                    "name": "tipsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                },
+                {
+                    "access": "public",
+                    "name": "QGraphicsPixmapItem"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Player.h",
+    "outputRevision": 69
+}

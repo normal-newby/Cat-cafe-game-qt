@@ -1,0 +1,27 @@
+{
+    "classes": [
+        {
+            "className": "OrderPanel",
+            "lineNumber": 18,
+            "object": true,
+            "qualifiedClassName": "OrderPanel",
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 29,
+                    "name": "rebuild",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "OrderPanel.h",
+    "outputRevision": 69
+}

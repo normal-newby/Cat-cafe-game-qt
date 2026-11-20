@@ -1,0 +1,95 @@
+{
+    "classes": [
+        {
+            "className": "CafeScene",
+            "lineNumber": 28,
+            "object": true,
+            "qualifiedClassName": "CafeScene",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 67,
+                    "name": "ordersChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 68,
+                    "name": "stockChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "correct",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "moneyDelta",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 69,
+                    "name": "orderServed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 70,
+                    "name": "counterEmpty",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 4,
+                    "lineNumber": 61,
+                    "name": "frameTick",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "lineNumber": 62,
+                    "name": "customerTick",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 6,
+                    "lineNumber": 63,
+                    "name": "spawnTick",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 7,
+                    "lineNumber": 64,
+                    "name": "interact",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 8,
+                    "lineNumber": 73,
+                    "name": "hideOutOfStockMessage",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QGraphicsScene"
+                }
+            ]
+        }
+    ],
+    "inputFile": "CafeScene.h",
+    "outputRevision": 69
+}

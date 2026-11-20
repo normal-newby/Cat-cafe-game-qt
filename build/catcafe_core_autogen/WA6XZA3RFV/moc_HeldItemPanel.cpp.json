@@ -1,0 +1,27 @@
+{
+    "classes": [
+        {
+            "className": "HeldItemPanel",
+            "lineNumber": 16,
+            "object": true,
+            "qualifiedClassName": "HeldItemPanel",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "lineNumber": 29,
+                    "name": "refresh",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "HeldItemPanel.h",
+    "outputRevision": 69
+}

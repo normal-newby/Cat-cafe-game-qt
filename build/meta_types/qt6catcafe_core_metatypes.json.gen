@@ -1,0 +1,667 @@
+[
+    {
+        "classes": [
+            {
+                "className": "GameScreen",
+                "lineNumber": 25,
+                "object": true,
+                "qualifiedClassName": "GameScreen",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 47,
+                        "name": "backRequested",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 48,
+                        "name": "soundToggleRequested",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 49,
+                        "name": "musicToggleRequested",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "correct",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 50,
+                        "name": "orderServed",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "panel",
+                                "type": "Panel"
+                            }
+                        ],
+                        "index": 4,
+                        "lineNumber": 43,
+                        "name": "togglePanel",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "soundOn",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "musicOn",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 5,
+                        "lineNumber": 44,
+                        "name": "showAudioState",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "money",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 58,
+                        "name": "showMoney",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "correct",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "moneyDelta",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 7,
+                        "lineNumber": 59,
+                        "name": "showMoneyChange",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWidget"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "GameScreen.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "InstructionsScreen",
+                "lineNumber": 19,
+                "object": true,
+                "qualifiedClassName": "InstructionsScreen",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 38,
+                        "name": "backRequested",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 35,
+                        "name": "advance",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWidget"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "InstructionsScreen.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "MenuScreen",
+                "lineNumber": 13,
+                "object": true,
+                "qualifiedClassName": "MenuScreen",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 21,
+                        "name": "playRequested",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 22,
+                        "name": "instructionsRequested",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWidget"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "MenuScreen.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "CafeScene",
+                "lineNumber": 28,
+                "object": true,
+                "qualifiedClassName": "CafeScene",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 67,
+                        "name": "ordersChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 68,
+                        "name": "stockChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "correct",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "moneyDelta",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 69,
+                        "name": "orderServed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 70,
+                        "name": "counterEmpty",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 61,
+                        "name": "frameTick",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 62,
+                        "name": "customerTick",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "lineNumber": 63,
+                        "name": "spawnTick",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "lineNumber": 64,
+                        "name": "interact",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 8,
+                        "lineNumber": 73,
+                        "name": "hideOutOfStockMessage",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QGraphicsScene"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "CafeScene.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "Player",
+                "lineNumber": 23,
+                "object": true,
+                "qualifiedClassName": "Player",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "money",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 53,
+                        "name": "moneyChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 54,
+                        "name": "heldItemChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "tips",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 55,
+                        "name": "tipsChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    },
+                    {
+                        "access": "public",
+                        "name": "QGraphicsPixmapItem"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "Player.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "SoundManager",
+                "lineNumber": 18,
+                "object": true,
+                "qualifiedClassName": "SoundManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "soundOn",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "musicOn",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 42,
+                        "name": "stateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "effect",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 43,
+                        "name": "effectPlayed",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 32,
+                        "name": "playClick",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "happy",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 3,
+                        "lineNumber": 33,
+                        "name": "playMeow",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 35,
+                        "name": "startMusic",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 36,
+                        "name": "stopMusic",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "lineNumber": 38,
+                        "name": "toggleSound",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "lineNumber": 39,
+                        "name": "toggleMusic",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "SoundManager.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "MainWindow",
+                "lineNumber": 19,
+                "object": true,
+                "qualifiedClassName": "MainWindow",
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 30,
+                        "name": "showMenu",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 31,
+                        "name": "showGame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 32,
+                        "name": "showInstructions",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QMainWindow"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "MainWindow.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "HeldItemPanel",
+                "lineNumber": 16,
+                "object": true,
+                "qualifiedClassName": "HeldItemPanel",
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 0,
+                        "lineNumber": 29,
+                        "name": "refresh",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWidget"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "HeldItemPanel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "OrderCard",
+                "lineNumber": 15,
+                "object": true,
+                "qualifiedClassName": "OrderCard",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWidget"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "OrderCard.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "OrderPanel",
+                "lineNumber": 18,
+                "object": true,
+                "qualifiedClassName": "OrderPanel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 29,
+                        "name": "rebuild",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWidget"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "OrderPanel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "RestockingPanel",
+                "lineNumber": 17,
+                "object": true,
+                "qualifiedClassName": "RestockingPanel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "delta",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 32,
+                        "name": "changeQuantity",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 33,
+                        "name": "restock",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 2,
+                        "lineNumber": 39,
+                        "name": "refresh",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWidget"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "RestockingPanel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "UpgradesPanel",
+                "lineNumber": 20,
+                "object": true,
+                "qualifiedClassName": "UpgradesPanel",
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "upgrade",
+                                "type": "Upgrade"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 32,
+                        "name": "buy",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 1,
+                        "lineNumber": 38,
+                        "name": "refreshButtons",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QWidget"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "UpgradesPanel.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "ImageButton",
+                "lineNumber": 17,
+                "object": true,
+                "qualifiedClassName": "ImageButton",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 32,
+                        "name": "hovered",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractButton"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "ImageButton.h",
+        "outputRevision": 69
+    }
+]

@@ -1,0 +1,34 @@
+{
+    "classes": [
+        {
+            "className": "MenuScreen",
+            "lineNumber": 13,
+            "object": true,
+            "qualifiedClassName": "MenuScreen",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 21,
+                    "name": "playRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 22,
+                    "name": "instructionsRequested",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "MenuScreen.h",
+    "outputRevision": 69
+}

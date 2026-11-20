@@ -1,0 +1,116 @@
+{
+    "classes": [
+        {
+            "className": "GameScreen",
+            "lineNumber": 25,
+            "object": true,
+            "qualifiedClassName": "GameScreen",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 47,
+                    "name": "backRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "lineNumber": 48,
+                    "name": "soundToggleRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 2,
+                    "lineNumber": 49,
+                    "name": "musicToggleRequested",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "correct",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 3,
+                    "lineNumber": 50,
+                    "name": "orderServed",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "panel",
+                            "type": "Panel"
+                        }
+                    ],
+                    "index": 4,
+                    "lineNumber": 43,
+                    "name": "togglePanel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "soundOn",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "musicOn",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 5,
+                    "lineNumber": 44,
+                    "name": "showAudioState",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "money",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 58,
+                    "name": "showMoney",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "correct",
+                            "type": "bool"
+                        },
+                        {
+                            "name": "moneyDelta",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 7,
+                    "lineNumber": 59,
+                    "name": "showMoneyChange",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QWidget"
+                }
+            ]
+        }
+    ],
+    "inputFile": "GameScreen.h",
+    "outputRevision": 69
+}

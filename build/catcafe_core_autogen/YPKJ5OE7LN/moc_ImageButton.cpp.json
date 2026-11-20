@@ -1,0 +1,27 @@
+{
+    "classes": [
+        {
+            "className": "ImageButton",
+            "lineNumber": 17,
+            "object": true,
+            "qualifiedClassName": "ImageButton",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "lineNumber": 32,
+                    "name": "hovered",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractButton"
+                }
+            ]
+        }
+    ],
+    "inputFile": "ImageButton.h",
+    "outputRevision": 69
+}
